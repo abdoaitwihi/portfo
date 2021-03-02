@@ -194,6 +194,14 @@
       // }).on('click', '.navigation-menu > li > a', function() {
       // 	$('.navbar-collapse').slideUp(300);
       // });
+      $(document)
+         .on("click", ".navbar-toggle", function () {
+            $(".navbar-collapse").slideToggle(300);
+            return false;
+         })
+         .on("click", ".navigation-menu > li > a", function () {
+            $(".navbar-collapse").slideUp(300);
+         });
 
       $(".facts-row").on("inview", function (event, isInView) {
          $(".count-number").each(function () {
