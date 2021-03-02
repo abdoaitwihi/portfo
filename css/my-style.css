@@ -1,0 +1,17 @@
+.my-work-item {
+  height: 100%;
+}
+
+.my-work-item a,
+.my-work-item figure,
+.my-work-item img {
+  height: 100%;
+}
+
+.my-work-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+/*# sourceMappingURL=my-style.css.map */

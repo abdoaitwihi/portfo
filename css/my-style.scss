@@ -1,0 +1,12 @@
+.my-work-item {
+   height: 100%;
+   a,
+   figure,
+   img {
+      height: 100%;
+   }
+   img {
+      object-fit: cover;
+      object-position: center;
+   }
+}
